@@ -8,7 +8,7 @@ const testimonials = [
   {
     id: 1,
     name: "Sarah M.",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/demo.png",
     rating: 5,
     text: "This place is amazing—fresh, creative, and well-executed. The staff is friendly and welcoming. It truly sets the standard for creativity.",
     bgColor: "bg-blue-50",
@@ -16,7 +16,7 @@ const testimonials = [
   {
     id: 2,
     name: "Priya S.",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/priyas.png",
     rating: 5,
     text: "Absolutely love this place! The drinks are so refreshing and unique, and the waffles are to die for. It's my go-to spot for a quick pick-me-up or a cozy hangout!",
     bgColor: "bg-pink-100",
@@ -24,7 +24,7 @@ const testimonials = [
   {
     id: 3,
     name: "Amit R.",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/amit.png",
     rating: 5,
     text: "Every sip feels like a little burst of happiness! The bubble teas are the best I've ever had, and the atmosphere is so welcoming. Highly recommend it to anyone looking for something special!",
     bgColor: "bg-rose-50",
@@ -80,7 +80,7 @@ export default function TestimonialCards() {
               className={`relative w-[320px] shrink-0 ${testimonial.bgColor} border-none`}
               style={{
                 transition: "opacity 0.7s ease-out",
-                opacity: index === cards.length - 1 && isSliding ? 0 : 1, // Apply fade effect only to the last card
+                opacity: index === cards.length - 1 && isSliding ? 0 : 0.8, // Apply fade effect only to the last card
               }}
             >
               <div className="p-6">
