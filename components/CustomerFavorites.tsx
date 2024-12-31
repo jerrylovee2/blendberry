@@ -46,14 +46,14 @@ export default function CustomerFavorites() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex === products.length - 1 ? 0 : prevIndex + 1
+    setCurrentIndex((prevIndex) =>
+      prevIndex === products.length - 2 ? 0 : prevIndex + 1
     )
   }
 
   const prevSlide = () => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex === 0 ? products.length - 1 : prevIndex - 1
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? products.length - 2 : prevIndex - 1
     )
   }
 
@@ -68,36 +68,39 @@ export default function CustomerFavorites() {
             Discover the creations our customers can't stop raving about! From signature blends to irresistible treats, these favorites are the heart of what makes us special. Try them and find your new obsession!
           </p>
           <div className="relative mb-20">
-            <div className="flex gap-6 transition-transform duration-500 ease-in-out overflow-hidden"
-                 style={{ transform: `translateX(-${currentIndex * 50}%)` }}>
-              {products.map((product, index) => (
-                <div
-                  key={product.id}
-                  className={`relative flex-shrink-0 w-1/2 md:w-1/4 aspect-[3/4] transition-all duration-300 ease-in-out
-                    ${hoveredIndex === index ? 'rounded-[50%/40%]' : 'rounded-3xl'}
-                    ${product.background}`}
-                  onMouseEnter={() => setHoveredIndex(index)}
-                  onMouseLeave={() => setHoveredIndex(null)}
-                >
-                  <div className="absolute inset-0 p-6 flex flex-col items-center justify-center">
-                    <img
-                      src={product.image}
-                      alt={product.name}
-                      className="w-full h-auto object-cover mb-4"
-                    />
-                    <div className="absolute bottom-0 flex flex-col items-center">
-                      <div className="text-center">
-                        <h3 className="text-xl font-semibold mb-1">{product.name}</h3>
-                        <p className={`text-lg transition-opacity duration-300 ${
-                          hoveredIndex === index ? 'opacity-100' : 'opacity-0'
-                        }`}>
-                          {product.price}
-                        </p>
+            {/* Wrapping the cards in a container with overflow hidden */}
+            <div className="overflow-hidden">
+              <div className="flex gap-6 transition-transform duration-500 ease-in-out"
+                style={{ transform: `translateX(-${currentIndex * 50}%)` }}>
+                {products.map((product, index) => (
+                  <div
+                    key={product.id}
+                    className={`relative flex-shrink-0 md:w-1/4 w-1/2 aspect-[3/4] transition-all duration-300 ease-in-out
+                      ${hoveredIndex === index ? 'rounded-[50%/40%]' : 'rounded-3xl'}
+                      ${product.background}`}
+                    onMouseEnter={() => setHoveredIndex(index)}
+                    onMouseLeave={() => setHoveredIndex(null)}
+                  >
+                    <div className="absolute inset-0 p-6 flex flex-col items-center justify-center">
+                      <img
+                        src={product.image}
+                        alt={product.name}
+                        className="w-full h-auto object-cover mb-4"
+                      />
+                      <div className="absolute bottom-0 flex flex-col items-center">
+                        <div className="text-center">
+                          <h3 className="text-xl font-semibold mb-1">{product.name}</h3>
+                          <p className={`text-lg transition-opacity duration-300 ${
+                            hoveredIndex === index ? 'opacity-100' : 'opacity-0'
+                          }`}>
+                            {product.price}
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
 
