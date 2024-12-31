@@ -1,9 +1,9 @@
 import Image from "next/image";
 export default function HappyPlace() {
   return (
-    <div className="">
-    <div className="min-h-screen flex items-center justify-center ">
-      <div className="max-w-6xl w-full overflow-hidden rounded-[2rem] bg-gradient-to-r from-pink-200 to-gray-900 shadow-2xl relative">
+    <div className="w-[90%] mx-auto">
+    <div className="min-h-screen flex items-center justify-center w-full">
+      <div className="max-w-full w-full overflow-hidden rounded-[2rem] bg-gradient-to-r from-pink-200 to-gray-900 shadow-2xl relative">
         <div className="grid items-center">
           {/* Background Image */}
           <div
