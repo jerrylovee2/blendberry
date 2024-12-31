@@ -4,6 +4,7 @@ import { useState } from "react";
 import MenuTab from "./menuTab";
 import { ChevronDown } from "lucide-react";
 import BubbleTea from "./BubbleTea";
+import Smoothie from "./Smoothie";
 
 export default function MenuItem() {
   const [activeTab, setActiveTab] = useState("bubble-teas");
@@ -64,10 +65,11 @@ export default function MenuItem() {
 
         {/* Tab Content */}
         <div className="text-center mt-16">
-           {activeTab === "bubble-teas" && <BubbleTea/>
-          /*{activeTab === "smoothies" && <Smoothies />}
-          {activeTab === "milkshakes" && <Milkshakes />}
-          {activeTab === "waffles" && <Waffles />} */}
+          { activeTab === "bubble-teas" && <BubbleTea/>
+          }
+          { activeTab === "smoothies" && <Smoothie />}
+          
+         
         </div>
       </div>
     </div>

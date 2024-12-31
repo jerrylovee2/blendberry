@@ -55,10 +55,7 @@ const fruitTeas = [
             <br></br>
             <ExtraToppings/>
             <br></br>
-            <SmallBanner text={text}/>
-
-
-        
+            <SmallBanner text={text}/>        
         </>
     )
 }
