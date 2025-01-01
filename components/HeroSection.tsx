@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export function HeroSection() {
   return (
     <section className="relative h-screen">
@@ -12,9 +14,9 @@ export function HeroSection() {
             <p className="text-lg md:text-xl text-white/90 mb-8">
               Where every sip sparks excitement, and every bite tells a story. Bold flavors, playful vibes, and moments you&apos;ll crave. Step into a world crafted just for you!
             </p>
-            <button className="bg-white text-pink-600 px-8 py-3 rounded-full font-medium hover:bg-pink-50 transition-colors">
+            <Link href="/menu" className="bg-white text-pink-600 px-8 py-3 rounded-full font-medium hover:bg-pink-50 transition-colors">
               Explore Our Menu
-            </button>
+            </Link>
           </div>
         </div>
       </div>

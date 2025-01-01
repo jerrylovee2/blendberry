@@ -1,23 +1,34 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import MenuTab from "./menuTab";
 import { ChevronDown } from "lucide-react";
 import BubbleTea from "./BubbleTea";
 import Smoothie from "./Smoothie";
 import MilkShakes from "./MilkShake";
 import WaffleTea from "./waffletea";
+import Coffee from "./coffee";
 
 export default function MenuItem() {
   const [activeTab, setActiveTab] = useState("bubble-teas");
-
-  // Define background images for each tab
   const backgroundImages = {
     "bubble-teas": "bubbletea.png",
     smoothies: "smoothie.png",
     milkshakes: "milkshakes.png",
     waffles: "waffle.png",
+    coffee: "coffee.png",
   };
+  
+  useEffect(() => {
+    const hash = window.location.hash.replace("#", "");
+    if (hash) {
+      if (hash === "coffee") {
+        setActiveTab("coffee");
+      } else {
+        setActiveTab(hash === "bubbletea" ? "bubble-teas" : hash);
+      }
+    }
+  }, []);
 
   return (
     <div className="min-h-screen bg-white">
@@ -41,39 +52,62 @@ export default function MenuItem() {
       </div>
 
       {/* Navigation Tabs */}
-      <div className="mx-auto mt-12 sm:mt-6">
-        <div className="flex justify-center space-x-2 sm:space-x-4">
-          <MenuTab
-            label="Bubble Teas"
-            isActive={activeTab === "bubble-teas"}
-            onClick={() => setActiveTab("bubble-teas")}
-          />
-          <MenuTab
-            label="Smoothies"
-            isActive={activeTab === "smoothies"}
-            onClick={() => setActiveTab("smoothies")}
-          />
-          <MenuTab
-            label="Milkshakes"
-            isActive={activeTab === "milkshakes"}
-            onClick={() => setActiveTab("milkshakes")}
-          />
-          <MenuTab
-            label="Bubble Waffles"
-            isActive={activeTab === "waffles"}
-            onClick={() => setActiveTab("waffles")}
-          />
+      {activeTab !== "coffee" && (
+        <div className="mx-auto mt-12 sm:mt-6">
+          <div className="flex justify-center space-x-2 sm:space-x-4">
+            <MenuTab
+              label="Bubble Teas"
+              isActive={activeTab === "bubble-teas"}
+              onClick={() => {
+                setActiveTab("bubble-teas");
+                window.location.hash = "bubbletea";
+              }}
+            />
+            <MenuTab
+              label="Smoothies"
+              isActive={activeTab === "smoothies"}
+              onClick={() => {
+                setActiveTab("smoothies");
+                window.location.hash = "smoothies";
+              }}
+            />
+            <MenuTab
+              label="Milkshakes"
+              isActive={activeTab === "milkshakes"}
+              onClick={() => {
+                setActiveTab("milkshakes");
+                window.location.hash = "milkshakes";
+              }}
+            />
+            <MenuTab
+              label="Bubble Waffles"
+              isActive={activeTab === "waffles"}
+              onClick={() => {
+                setActiveTab("waffles");
+                window.location.hash = "waffles";
+              }}
+            />
+            <div className="hidden">
+            <MenuTab
+              label="Coffee"
+              isActive={activeTab === "coffee"}
+              onClick={() => {
+                setActiveTab("coffee");
+                window.location.hash = "coffee";
+              }}
+            />
+            </div>
+          </div>
         </div>
+      )}
 
-        {/* Tab Content */}
-        <div className="text-center mt-16">
-          { activeTab === "bubble-teas" && <BubbleTea/>}
-          { activeTab === "smoothies" && <Smoothie />}
-          { activeTab === "milkshakes" && <MilkShakes/>}
-          {activeTab === "waffles" && <WaffleTea/>}
-          
-         
-        </div>
+      {/* Tab Content */}
+      <div className="text-center mt-16">
+        {activeTab === "bubble-teas" && <BubbleTea/>}
+        {activeTab === "smoothies" && <Smoothie />}
+        {activeTab === "milkshakes" && <MilkShakes/>}
+        {activeTab === "waffles" && <WaffleTea/>}
+        {activeTab === "coffee" && <Coffee/>}
       </div>
     </div>
   );

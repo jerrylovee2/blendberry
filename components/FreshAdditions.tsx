@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from 'next/link';
 
 export default function FreshAdditions() {
   return (
@@ -23,13 +24,17 @@ export default function FreshAdditions() {
         <p className="mb-8 max-w-2xl text-lg text-gray-100 md:text-xl">
           Introducing our newest delights: aromatic handcrafted coffee, refreshing lassi, and soothing chai. Perfectly brewed and crafted to satisfy your cravings—come and sip the goodness today!
         </p>
-        <Button 
-          variant="secondary"
-          size="lg"
-          className="text-lg font-medium"
-        >
-          Take a look
-        </Button>
+        <Link href="/menu#coffee">
+          
+            <Button 
+              variant="secondary"
+              size="lg"
+              className="text-lg font-medium"
+            >
+              Take a look
+            </Button>
+          
+        </Link>
       </div>
     </div>
   );
