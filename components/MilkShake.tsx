@@ -3,6 +3,8 @@ import Flowerext from "./ui/Flowerext";
 import MenuCarousel from "./ui/menu-carasoul";
 import MenuCarousel1 from "./ui/menu-carsouel1";
 import SmallBanner from "./ui/smallbanner";
+import Banner from "./ui/banner";
+import GlobalMix from "./ui/global";
 const fruitTeas = [
     {
       name: "Oreo Overloaded",
@@ -37,6 +39,14 @@ const fruitTeas = [
     {
       name: "Freezing Pineapple",
       image: "/fruittea2.png",
+    },
+    {
+      name: "Freezing Pineapple",
+      image: "/fruittea2.png",
+    },
+    {
+      name: "Freezing Pineapple",
+      image: "/fruittea2.png",
     }
   ]
   const Protiens = [
@@ -55,17 +65,21 @@ const fruitTeas = [
   ]
   
   const text= "Disclaimer - Our food may contain allergens like milk, nuts, and caffeine. We can't guarantee allergen-free items. Please inform us of any allergies."
- 
+  const text2="Discover Our New Mix-In!"
 const MilkShakes = () =>{
     return(
         <>  
         <Flowerext flowerText="Classic" leftPricing={{ title: "Small", price:5.99 }} rightPricing={{ title: "Regular", price:7.49 }}/>
         <MenuCarousel1 drinks={fruitTeas}/>
-        <Flowerext flowerText="Tropical" leftPricing={{ title: "Small", price:5.99 }} rightPricing={{ title: "Regular", price:7.49 }}/>
-        <MenuCarousel drinks={Tropicals}/>
-        <Flowerext flowerText="Protien" leftPricing={{ title: "Small", price:7.99 }} rightPricing={{ title: "Regular", price:9.49 }}/>
-        <MenuCarousel drinks={Protiens}/>
-        <SmallBanner text={text}/>   
+        <Banner 
+            leftSection={{ text: "Small", price: "5.99" }}
+            rightSection={{ text: "Regular", price: "6.99" }}
+            />
+        <Flowerext flowerText="Special" leftPricing={{ title: "Small", price:5.99 }} rightPricing={{ title: "Regular", price:7.49 }}/>
+        <MenuCarousel1 drinks={Tropicals}/>
+        <SmallBanner text={text2}/>   
+        <GlobalMix/>
+        <SmallBanner text={text}/> 
         </>
     )
 }

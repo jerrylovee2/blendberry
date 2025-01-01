@@ -1,6 +1,7 @@
 import React from "react";
 import Flowerext from "./ui/Flowerext";
 import MenuCarousel from "./ui/menu-carasoul";
+import SmallBanner from "./ui/smallbanner";
 const fruitTeas = [
     {
       name: "Strawberry Banana",
@@ -44,7 +45,8 @@ const fruitTeas = [
     }
   ]
   
-
+  const text= "Disclaimer - Our food may contain allergens like milk, nuts, and caffeine. We can't guarantee allergen-free items. Please inform us of any allergies."
+ 
 const Smoothie = () =>{
     return(
         <>  
@@ -54,6 +56,7 @@ const Smoothie = () =>{
         <MenuCarousel drinks={Tropicals}/>
         <Flowerext flowerText="Protien" leftPricing={{ title: "Small", price:7.99 }} rightPricing={{ title: "Regular", price:9.49 }}/>
         <MenuCarousel drinks={Protiens}/>
+        <SmallBanner text={text}/>
         </>
     )
 }
