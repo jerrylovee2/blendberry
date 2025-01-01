@@ -8,61 +8,48 @@ import GlobalMix from "./ui/global";
 const fruitTeas = [
     {
       name: "Oreo Overloaded",
-      image: "/fruittea0.png",
+      image: "/m1.png",
     },
     {
       name: "Double Choclate",
-      image: "/fruittea1.png",
+      image: "/m2.png",
     },
     {
       name: "Frrero Nutella",
-      image: "/fruittea2.png",
+      image: "/m3.png",
     },
     {
         name: "Kit-Kat Pie",
-        image: "/fruittea2.png",
+        image: "/m4.png",
     },
     {
         name: "Coffee Cyclone",
-        image: "/fruittea2.png",
+        image: "/m5.png",
     }
   ]
   const Tropicals = [
     {
-      name: "Pina Colada",
-      image: "/fruittea0.png",
+      name: "Blueberry Blast",
+      image: "/m6.png",
     },
     {
-      name: "Golden Mango Slush",
-      image: "/fruittea1.png",
+      name: "Sweet Strawberry",
+      image: "/m7.png",
     },
     {
-      name: "Freezing Pineapple",
-      image: "/fruittea2.png",
+      name: "Coco Dates Banana",
+      image: "/m8.png",
     },
     {
-      name: "Freezing Pineapple",
-      image: "/fruittea2.png",
+      name: "Salted Caramel Pretzel",
+      image: "/m9.png",
     },
     {
-      name: "Freezing Pineapple",
-      image: "/fruittea2.png",
+      name: "Mango Mastani",
+      image: "/m10.png",
     }
   ]
-  const Protiens = [
-    {
-      name: "Muscle Builder",
-      image: "/fruittea0.png",
-    },
-    {
-      name: "Elite A Whey",
-      image: "/fruittea1.png",
-    },
-    {
-      name: "Peanut Butter Cup",
-      image: "/fruittea2.png",
-    }
-  ]
+
   
   const text= "Disclaimer - Our food may contain allergens like milk, nuts, and caffeine. We can't guarantee allergen-free items. Please inform us of any allergies."
   const text2="Discover Our New Mix-In!"

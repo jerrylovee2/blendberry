@@ -5,43 +5,43 @@ import SmallBanner from "./ui/smallbanner";
 const fruitTeas = [
     {
       name: "Strawberry Banana",
-      image: "/fruittea0.png",
+      image: "/s1.png",
     },
     {
       name: "Berries Treasure",
-      image: "/fruittea1.png",
+      image: "/s2.png",
     },
     {
       name: "Big Blue Banana",
-      image: "/fruittea2.png",
+      image: "/s3.png",
     }
   ]
   const Tropicals = [
     {
       name: "Pina Colada",
-      image: "/fruittea0.png",
+      image: "/s4.png",
     },
     {
       name: "Golden Mango Slush",
-      image: "/fruittea1.png",
+      image: "/s5.png",
     },
     {
       name: "Freezing Pineapple",
-      image: "/fruittea2.png",
+      image: "/s6.png",
     }
   ]
   const Protiens = [
     {
       name: "Muscle Builder",
-      image: "/fruittea0.png",
+      image: "/s7.png",
     },
     {
       name: "Elite A Whey",
-      image: "/fruittea1.png",
+      image: "/s8.png",
     },
     {
       name: "Peanut Butter Cup",
-      image: "/fruittea2.png",
+      image: "/s9.png",
     }
   ]
   
