@@ -25,7 +25,7 @@ export function NavLinks() {
             "text-base transition-colors hover:text-pink-600",
             pathname === link.href
               ? "text-pink-600 underline underline-offset-4"
-              : "text-gray-700 hover:underline hover:underline-offset-4"
+              : "text-black hover:underline hover:underline-offset-4"
           )}
         >
           {link.label}
