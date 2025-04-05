@@ -9,18 +9,18 @@ export default function FrontPage() {
       </div>
 
       {/* Mission Statement Section */}
-      <div className="bg-[#FFE4E1] p-6 text-center mb-8 rounded-lg">
-        <p className="text-gray-800 mb-2">
+      <div className="bg-[#FFE4E1] p-14 text-center mb-8 rounded-lg">
+        <p className="text-gray-800 mb-2 px-8">
           At Blendberry, we believe in making every sip count. Our mission is simple: to offer you drinks that taste
           amazing and are good for you. From our vibrant fruit smoothies to premium bubble teas and creamy milkshakes,
           every drink is made with real, fresh ingredients
         </p>
-        <p className="text-[#B22222] font-medium mb-2">No added sugars or artificial flavors.</p>
-        <p className="text-gray-800 mb-4">
+        <p className="text-[#B22222] font-medium mb-2 px-8">No added sugars or artificial flavors.</p>
+        <p className="text-gray-800 mb-4 px-8">
           At Blendberry, we make it easy to enjoy a delicious beverage that fuels your body without compromising on
           taste.
         </p>
-        <p className="text-[#B22222] text-xl font-bold">Blendberry – Taste the Goodness, Live the Wellness.</p>
+        <p className="text-[#B22222] text-xl font-bold px-8">Blendberry – Taste the Goodness, Live the Wellness.</p>
       </div>
 
       {/* Bubble Tea Section */}
