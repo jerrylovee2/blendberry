@@ -52,7 +52,7 @@ export default function FrontPage() {
         </div>
 
         <div className="rounded-[70px] mt-16 flex flex-row justify-center items-center">
-          <div className="w-1/2 flex flex-col items-start">
+          <div className="w-1/2 flex flex-col mt-0 sm:mt-20 items-start">
             <img src="/milkshaketext.png" alt="Milkshake Text Image" className="mb-4" style={{ maxWidth: '100%', height: 'auto', maxHeight: '200px', width: '200px' }} />
             <p className="text-sm text-left mb-4">
               Rich, creamy milkshakes available in classic and inventive flavors to treat your taste buds.
@@ -74,7 +74,7 @@ export default function FrontPage() {
         </div>
 
         <div className=" rounded-[70px]  mt-16 flex flex-row-reverse justify-center items-center">
-          <div className="w-1/2 flex flex-col  items-center">
+          <div className="w-1/2 flex flex-col items-center">
             <img src="/smoothietext.png" alt="Bubble Tea Top Image" className="mb-4" style={{ maxWidth: '100%', height: 'auto', maxHeight: '200px', width: '200px' }} />
             <p className="text-sm text-center mb-4">
             Wholesome fruit blends, crafted in a variety of refreshing flavors to energize your day.
@@ -96,7 +96,7 @@ export default function FrontPage() {
         </div>
 
         <div className="bg-opacity-40 rounded-[70px] p-8 mt-16 flex">
-          <div className="w-1/2 flex flex-col items-start">
+          <div className="w-1/2 flex flex-col mt-0 sm:mt-20 items-start">
             <img src="/waffletext.png" alt="Waffle Text Image" className="mb-4" style={{ maxWidth: '100%', height: 'auto', maxHeight: '200px', width: '200px' }} />
             <p className="text-sm text-left mb-4">
               Crisp, fluffy waffles served with an array of toppings — from fruity to indulgent.
