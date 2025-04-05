@@ -6,7 +6,7 @@ const Menu=()=>{
     return(
         <>
           <Navigation />
-          <MenuItem/>
+          {/* <MenuItem/> */}
         </>
     )
 }

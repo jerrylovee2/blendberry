@@ -6,7 +6,7 @@ import HouseFavorites from "./ui/coffeeitems";
 
 const text= "Disclaimer - Our food may contain allergens like milk, nuts, and caffeine. We can't guarantee allergen-free items. Please inform us of any allergies."
  
-const Coffee=()=>{
+const CoffeeComponent=()=>{
     return(
         <>
         <PricingMenu/>
@@ -17,4 +17,4 @@ const Coffee=()=>{
     )
 }
 
-export default Coffee;
+export default CoffeeComponent;

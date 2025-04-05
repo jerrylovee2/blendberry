@@ -38,7 +38,7 @@ const fruitTeas = [
 
   const text= "Disclaimer - Our food may contain allergens like milk, nuts, and caffeine. We can't guarantee allergen-free items. Please inform us of any allergies."
  
-  const BubbleTea=()=>{
+  const BubbleTeaComponent=()=>{
     return(
         <>  
             <Flower text="Bubble Teas"/>
@@ -60,4 +60,4 @@ const fruitTeas = [
     )
 }
 
-export default BubbleTea;
+export default BubbleTeaComponent;
