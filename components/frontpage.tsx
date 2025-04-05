@@ -30,7 +30,7 @@ export default function FrontPage() {
         </div>
 
         <div className=" rounded-[70px]  mt-16 flex flex-row-reverse justify-center items-center">
-          <div className="w-1/2 flex flex-col relative top-[-80px] items-center">
+          <div className="w-1/2 flex flex-col  items-center">
             <img src="/bubbleteatop.png" alt="Bubble Tea Top Image" className="mb-4" style={{ maxWidth: '100%', height: 'auto', maxHeight: '200px', width: '200px' }} />
             <p className="text-sm text-center mb-4">
               A delightful range of tea-based drinks, blended with unique flavors and chewy toppings for every mood.
@@ -52,7 +52,7 @@ export default function FrontPage() {
         </div>
 
         <div className=" bg-opacity-40 rounded-[70px] p-8 mt-16 flex">
-           <div className="w-1/2 flex flex-col relative top-[-80px] items-center">
+           <div className="w-1/2 flex flex-col  items-center">
             <img src="/milkshaketext.png" alt="Bubble Tea Top Image" className="mb-4" style={{ maxWidth: '100%', height: 'auto', maxHeight: '200px', width: '200px' }} />
             <p className="text-sm text-center mb-4">
             Rich, creamy milkshakes available in classic and inventive flavors to treat your taste buds.
@@ -74,7 +74,7 @@ export default function FrontPage() {
         </div>
 
         <div className=" rounded-[70px]  mt-16 flex flex-row-reverse justify-center items-center">
-          <div className="w-1/2 flex flex-col relative top-[-80px] items-center">
+          <div className="w-1/2 flex flex-col  items-center">
             <img src="/smoothietext.png" alt="Bubble Tea Top Image" className="mb-4" style={{ maxWidth: '100%', height: 'auto', maxHeight: '200px', width: '200px' }} />
             <p className="text-sm text-center mb-4">
             Wholesome fruit blends, crafted in a variety of refreshing flavors to energize your day.
@@ -96,7 +96,7 @@ export default function FrontPage() {
         </div>
 
         <div className=" bg-opacity-40 rounded-[70px] p-8 mt-16 flex">
-           <div className="w-1/2 flex flex-col relative top-[-80px] items-center">
+           <div className="w-1/2 flex flex-col  items-center">
             <img src="/waffletext.png" alt="Bubble Tea Top Image" className="mb-4" style={{ maxWidth: '100%', height: 'auto', maxHeight: '200px', width: '200px' }} />
             <p className="text-sm text-center mb-4">
             Crisp, fluffy waffles served with an array of toppings — from fruity to indulgent.
@@ -117,7 +117,7 @@ export default function FrontPage() {
         </div>
 
         <div className=" rounded-[70px]  mt-16 flex flex-row-reverse justify-center items-center">
-          <div className="w-1/2 flex flex-col relative top-[-80px] items-center">
+          <div className="w-1/2 flex flex-col  items-center">
             <img src="/teatext.png" alt="Bubble Tea Top Image" className="mb-4" style={{ maxWidth: '100%', height: 'auto', maxHeight: '200px', width: '200px' }} />
             <p className="text-sm text-center mb-4">
             A curated selection of aromatic coffees and soothing teas — from bold brews to calming infusions, crafted for every moment.
