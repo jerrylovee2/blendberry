@@ -46,16 +46,16 @@ export default function FrontPage() {
       </div>
 
       {/* Milkshake Section */}
-      <div className="max-w-5xl mx-auto  relative ">
+      <div className="max-w-5xl mx-auto relative ">
         <div className="absolute left-0 top-0">
          
         </div>
 
-        <div className=" bg-opacity-40 rounded-[70px] p-8 mt-16 flex">
-           <div className="w-1/2 flex flex-col  items-center">
-            <img src="/milkshaketext.png" alt="Bubble Tea Top Image" className="mb-4" style={{ maxWidth: '100%', height: 'auto', maxHeight: '200px', width: '200px' }} />
-            <p className="text-sm text-center mb-4">
-            Rich, creamy milkshakes available in classic and inventive flavors to treat your taste buds.
+        <div className="rounded-[70px] mt-16 flex flex-row justify-center items-center">
+          <div className="w-1/2 flex flex-col items-start">
+            <img src="/milkshaketext.png" alt="Milkshake Text Image" className="mb-4" style={{ maxWidth: '100%', height: 'auto', maxHeight: '200px', width: '200px' }} />
+            <p className="text-sm text-left mb-4">
+              Rich, creamy milkshakes available in classic and inventive flavors to treat your taste buds.
             </p>
             <button className="bg-[#9370DB] h-11 sm:h-14 hover:bg-[#8A2BE2] text-white rounded-full px-4 sm:px-4">
               Find yourself a perfect Milkshake
@@ -63,7 +63,7 @@ export default function FrontPage() {
           </div>
 
           <div className="w-1/2">
-            <img src="/milkshakefront.png" alt="Bubble Tea Image" />
+            <img src="/milkshakefront.png" alt="Milkshake Image" />
           </div>
         </div>
       </div>
@@ -89,17 +89,17 @@ export default function FrontPage() {
         </div>
       </div>
 
-      {/* Milkshake Section */}
-      <div className="max-w-5xl mx-auto  relative">
+      {/* Waffle Section */}
+      <div className="max-w-5xl mx-auto relative">
         <div className="absolute left-0 top-0">
          
         </div>
 
-        <div className=" bg-opacity-40 rounded-[70px] p-8 mt-16 flex">
-           <div className="w-1/2 flex flex-col  items-center">
-            <img src="/waffletext.png" alt="Bubble Tea Top Image" className="mb-4" style={{ maxWidth: '100%', height: 'auto', maxHeight: '200px', width: '200px' }} />
-            <p className="text-sm text-center mb-4">
-            Crisp, fluffy waffles served with an array of toppings — from fruity to indulgent.
+        <div className="bg-opacity-40 rounded-[70px] p-8 mt-16 flex">
+          <div className="w-1/2 flex flex-col items-start">
+            <img src="/waffletext.png" alt="Waffle Text Image" className="mb-4" style={{ maxWidth: '100%', height: 'auto', maxHeight: '200px', width: '200px' }} />
+            <p className="text-sm text-left mb-4">
+              Crisp, fluffy waffles served with an array of toppings — from fruity to indulgent.
             </p>
             <button className="bg-[#ACD6E0] h-11 sm:h-14 hover:bg-[#8cb2bc] text-white rounded-full px-4 sm:px-4">
               Find yourself a perfect Waffle
@@ -107,7 +107,7 @@ export default function FrontPage() {
           </div>
 
           <div className="w-1/2">
-            <img src="/sss.png" alt="Bubble Tea Image" />
+            <img src="/sss.png" alt="Waffle Image" />
           </div>
         </div>
       </div>
