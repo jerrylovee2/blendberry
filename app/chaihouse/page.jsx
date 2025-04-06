@@ -1,4 +1,4 @@
-import BubbleTeaComponent from "@/components/BubbleTea";
+
 import Connect from "@/components/Connect";
 import { Navigation } from "@/components/Navigation";
 import HouseFavorites from "@/components/ui/coffeeitems";

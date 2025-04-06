@@ -1,8 +1,6 @@
 import Connect from "@/components/Connect";
 import { Navigation } from "@/components/Navigation";
 import React from "react";
-import Newmilkshake from "../../components/newmilkshake";
-import Smoothie from "@/components/Smoothie";
 import WaffleTea from "@/components/waffletea";
 
 
