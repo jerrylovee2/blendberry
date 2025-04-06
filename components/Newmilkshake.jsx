@@ -5,7 +5,6 @@ import MenuCarousel1 from "./ui/menu-carsouel1";
 import SmallBanner from "./ui/smallbanner";
 import Banner from "./ui/banner";
 import GlobalMix from "./ui/global";
-import FruitShowcase from "./FruitShowCase";
 
 
 const fruits = [
@@ -63,7 +62,7 @@ const fruitTeas = [
   
   const text= "Disclaimer - Our food may contain allergens like milk, nuts, and caffeine. We can't guarantee allergen-free items. Please inform us of any allergies."
   const text2="Discover Our New Mix-In!"
-  
+
 const Newmilkshake = () =>{
     return(
         <>  
