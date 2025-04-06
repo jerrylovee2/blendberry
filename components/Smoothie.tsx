@@ -2,7 +2,7 @@ import React from "react";
 import Flowerext from "./ui/Flowerext";
 import MenuCarousel from "./ui/menu-carasoul";
 import SmallBanner from "./ui/smallbanner";
-import FruitShowCase from './FruitShowCase'; 
+import FruitShowcase from "./FruitShowcase";
 
 const fruits = [
   { text: "Dragon Fruit", image: "/images/dragon-fruit.png" },
@@ -61,11 +61,11 @@ const Smoothie = () =>{
     return(
         <>  
         <Flowerext flowerText="Classic" leftPricing={{ title: "Small", price:5.99 }} rightPricing={{ title: "Regular", price:7.49 }}/>
-        <FruitShowCase fruits={fruits}/>
+        <FruitShowcase fruits={fruits}/>
         <MenuCarousel drinks={fruitTeas}/>
         <Flowerext flowerText="Tropical" leftPricing={{ title: "Small", price:5.99 }} rightPricing={{ title: "Regular", price:7.49 }}/>
         <MenuCarousel drinks={Tropicals}/>
-        <Flowerext flowerText="Protien" leftPricing={{ title: "Small", price:7.99 }} rightPricing={{ title: "Regular", price:9.49 }}/>
+        <Flowerext flowerText="Protein" leftPricing={{ title: "Small", price:7.99 }} rightPricing={{ title: "Regular", price:9.49 }}/>
         <MenuCarousel drinks={Protiens}/>
         <SmallBanner text={text}/>
         </>
