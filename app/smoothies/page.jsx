@@ -3,8 +3,6 @@ import { Navigation } from "@/components/Navigation";
 import React from "react";
 import Smoothie from "@/components/Smoothie";
 
-
-
 const smoothies=()=>{
     return(<>
     

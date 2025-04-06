@@ -8,7 +8,7 @@ const FruitShowcase = ({ fruits }) => {
   const mainFruits = fruits.slice(0, 4)
   const lastFruit = fruits[4]
 
-  const FruitCard = ({ text, image }) => (
+  let FruitCard = ({ text, image }) => (
     <div className="flex flex-col items-center">
       <div className="relative w-full max-w-[200px] h-[200px] mb-4">
         <Image
