@@ -5,6 +5,16 @@ import MenuCarousel1 from "./ui/menu-carsouel1";
 import SmallBanner from "./ui/smallbanner";
 import Banner from "./ui/banner";
 import GlobalMix from "./ui/global";
+import FruitShowcase from "./FruitShowCase";
+
+
+const fruits = [
+  { text: "Dragon Fruit", image: "/images/dragon-fruit.png" },
+  { text: "Passion Fruit", image: "/images/passion-fruit.png" },
+  { text: "Green Apple", image: "/images/green-apple.png" },
+  { text: "Peach", image: "/images/peach.png" },
+  { text: "Lychee", image: "/images/lychee.png" },
+]
 const fruitTeas = [
     {
       name: "Oreo Overloaded",
@@ -53,10 +63,12 @@ const fruitTeas = [
   
   const text= "Disclaimer - Our food may contain allergens like milk, nuts, and caffeine. We can't guarantee allergen-free items. Please inform us of any allergies."
   const text2="Discover Our New Mix-In!"
+  
 const Newmilkshake = () =>{
     return(
         <>  
         <Flowerext flowerText="Classic" leftPricing={{ title: "Small", price:5.99 }} rightPricing={{ title: "Regular", price:7.49 }}/>
+        {/* <FruitShowcase fruits={fruits}/> */}
         <MenuCarousel1 drinks={fruitTeas}/>
         <Banner 
             leftSection={{ text: "Small", price: "5.99" }}
