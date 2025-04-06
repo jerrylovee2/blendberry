@@ -46,4 +46,4 @@ const FruitShowcase = ({ fruits }) => {
   )
 }
 
-export default FruitShowcase
+export default FruitShowcase;
