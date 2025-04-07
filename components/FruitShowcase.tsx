@@ -20,12 +20,10 @@ const FruitShowcase: React.FC<FruitShowcaseProps> = ({ fruits }) => {
   const FruitCard: React.FC<Fruit> = ({ text, image }) => (
     <div className="flex flex-col items-center">
       <div className="relative w-full max-w-[200px] h-[200px] mb-4">
-        <Image
+        <img
           src={image || "/placeholder.svg"}
           alt={text}
-          fill
-          className="object-contain"
-          sizes="(max-width: 768px) 100vw, 200px"
+          style={{width:'200px',height:'200px'}}
         />
       </div>
       <h3 className="text-center font-medium text-lg">{text}</h3>
