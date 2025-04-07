@@ -13,7 +13,7 @@ const chaihouse=()=>{
     return(<>
     
     <Navigation/>
-    <img src="/coffee.png" alt="Bubble Tea" style={{ width: '100%', height: '100vh' }} />
+    <img src="/coffee1.png" alt="Bubble Tea" style={{ width: '100%', height: '100vh' }} />
         <PricingMenu/>
          <HouseFavorites/>
          
