@@ -12,6 +12,7 @@ const WaffleTea = () =>{
     return(
         <>      
         <Menu/>
+        
         <Banner 
             leftSection={{ text: "Plain Bubble Waffle", price: "3.99" }}
             rightSection={{ text: "Other Flavours", price: "5.99" }}

@@ -14,7 +14,7 @@ interface ClassicPricingProps {
 
 export default function ClassicPricing({ leftPricing, rightPricing, flowerText }: ClassicPricingProps) {
   return (
-    <div className="flex items-center justify-between gap-4 w-full max-w-4xl mx-auto">
+    <div className="flex items-center justify-between gap-4 w-full  mx-auto">
       {/* Left price pill */}
       <div className="bg-[#E38B98] text-white rounded-tr-full rounded-br-full px-8 py-3 flex flex-col items-center">
         <span className="text-2xl font-semibold">{leftPricing.title}</span>
