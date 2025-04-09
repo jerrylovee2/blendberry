@@ -8,9 +8,9 @@ import { useState, useRef } from "react";
 const links = [
   { href: "/", label: "Home" },
   { href: "/#", label: "Menu" },
-  { href: "/#", label: "Our Story" },
-  { href: "/#", label: "Reviews" },
-  { href: "/#", label: "Contact" },
+  // { href: "/#", label: "Our Story" },
+  // { href: "/#", label: "Reviews" },
+  { href: "tel:+17805788122", label: "Contact" }
 ];
 
 export function NavLinks() {

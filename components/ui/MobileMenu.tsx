@@ -23,9 +23,10 @@ const links = [
       { href: "/chaihouse", label: "Chai House" },
     ] 
   },
-  { href: "/our-story", label: "Our Story" },
-  { href: "/reviews", label: "Reviews" },
-  { href: "/contact", label: "Contact" },
+  // { href: "/our-story", label: "Our Story" },
+  // { href: "/reviews", label: "Reviews" },
+  { href: "tel:+17805788122", label: "Contact" }
+
 ];
 
 export function MobileMenu() {

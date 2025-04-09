@@ -18,7 +18,7 @@ export default function Connect() {
               priority
             />
           </div>
-           <div className="bg-[#E5F4F9] flex items-center justify-center p-4">
+           <div className="bg-[#F6DED4] flex items-center justify-center p-4">
       <div className="">
         {/* Title with underline */}
         <div className="relative mb-16">
@@ -36,7 +36,7 @@ export default function Connect() {
               <div className="w-8 h-8">
                 <Phone className="w-full h-full" />
               </div>
-              <span className="text-lg">+91- 7942683366</span>
+              <span className="text-lg">+1 - (780) 578-8122</span>
             </div>
 
             {/* Email */}
@@ -52,7 +52,7 @@ export default function Connect() {
               <div className="w-8 h-8">
                 <MapPin className="w-full h-full" />
               </div>
-              <span className="text-lg">Canada</span>
+              <span className="text-lg">#3, 56016, HWY, 28A, <br></br>GIBBON, AB TOA 1NO</span>
             </div>
 
             {/* Get Directions Button */}
@@ -108,14 +108,12 @@ export default function Connect() {
 function Footer() {
   const links = [
     { name: "Home", href: "/" },
-    { name: "About Us", href: "/about" },
-    { name: "Menu", href: "/menu" },
-    { name: "Contact Us", href: "/contact" },
+    // { name: "About Us", href: "/about" },
+    // { name: "Menu", href: "/menu" },
+    {name:"Contact",href:"tel:+17805788122" },
     { name: "Instagram", href: "#" },
     { name: "WhatsApp", href: "#" },
     { name: "Privacy Policy", href: "/privacy" },
-    { name: "Terms & Services", href: "/terms" },
-    { name: "Help?", href: "/help" },
   ]
 
   return (
