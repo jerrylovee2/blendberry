@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 export function HeroSection() {
   return (
-    <section className="relative h-screen">
-      <img src="/bgfront.jpeg" alt="Hero Background" className="absolute inset-0 object-cover w-full h-full" />
+    <section className="relative h-[40vh] sm:h-[45vh] lg:h-screen">
+      <img src="/bgfront.jpeg" alt="Hero Background" className="absolute inset-0 object-cover w-full h-10vh sm:h-full" />
       <div className="absolute inset-0 bg-black/10" />
       <div className="relative h-full flex items-center">
         <div className="container mx-auto px-4 md:px-6">

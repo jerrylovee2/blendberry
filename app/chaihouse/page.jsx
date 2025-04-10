@@ -13,7 +13,9 @@ const chaihouse=()=>{
     return(<>
     
     <Navigation/>
-    <img src="/coffee1.png" alt="Bubble Tea" style={{ width: '100%', height: '100vh' }} />
+    <div className="relative h-[30vh] sm:h-[45vh] lg:h-screen">
+    <img src="/coffee1.png" alt="Bubble Tea" className=" w-full h-100vh sm:h-full" />
+    </div>
         <PricingMenu/>
          <HouseFavorites/>
          
