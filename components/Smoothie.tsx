@@ -88,13 +88,13 @@ const Smoothie = () =>{
                 Smoothies
               </button>
             </div>
-        <Flowerext flowerText="Classic" leftPricing={{ title: "Small", price:5.99 }} rightPricing={{ title: "Regular", price:7.49 }}/>
+        <Flowerext flowerText="Classic" leftPricing={{ title: "Small", price:5.99 }} rightPricing={{ title: "Regular", price:6.49 }}/>
         <FruitShowcase fruits={fruits}/>
         {/* <MenuCarousel drinks={fruitTeas}/> */}
-        <Flowerext flowerText="Tropical" leftPricing={{ title: "Small", price:5.99 }} rightPricing={{ title: "Regular", price:7.49 }}/>
+        <Flowerext flowerText="Tropical" leftPricing={{ title: "Small", price:5.99 }} rightPricing={{ title: "Regular", price:6.49 }}/>
         {/* <MenuCarousel drinks={Tropicals}/> */}
         <FruitShowcaseFour fruits={fruits1}/>
-        <Flowerext flowerText="Protein" leftPricing={{ title: "Small", price:7.99 }} rightPricing={{ title: "Regular", price:9.49 }}/>
+        <Flowerext flowerText="Protein" leftPricing={{ title: "Small", price:7.99 }} rightPricing={{ title: "Regular", price:6.49 }}/>
         {/* <MenuCarousel drinks={Protiens}/> */}
         <FruitShowcaseFour fruits={fruits2}/>
         <SmallBanner text={text}/>

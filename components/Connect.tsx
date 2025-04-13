@@ -44,7 +44,7 @@ export default function Connect() {
               <div className="w-8 h-8">
                 <Mail className="w-full h-full" />
               </div>
-              <span className="text-lg">blendberry@gmail.com</span>
+              <span className="text-lg">info@blendberry.ca</span>
             </div>
 
             {/* Location */}
@@ -52,7 +52,7 @@ export default function Connect() {
               <div className="w-8 h-8">
                 <MapPin className="w-full h-full" />
               </div>
-              <span className="text-lg">#3, 56016, HWY, 28A, <br></br>GIBBON, AB TOA 1NO</span>
+              <span className="text-lg">#3, 56016, HWY, 28A, <br></br>GIBBONS, AB TOA 1NO</span>
             </div>
 
             {/* Get Directions Button */}
@@ -91,7 +91,7 @@ export default function Connect() {
             {/* Cafe Hours */}
             <div className="space-y-4">
               <h2 className="text-2xl font-semibold">Cafe Hours:</h2>
-              <p className="text-xl">Mon-Sun | 11:30am-9pm</p>
+              <p className="text-xl">Mon-Sun | 6:00am-11:00pm</p>
             </div>
           </div>
         </div>

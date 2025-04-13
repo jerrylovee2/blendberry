@@ -83,14 +83,14 @@ const MilkShakesComponent = () =>{
                 Milkshakes
               </button>
             </div>
-        <Flowerext flowerText="Classic" leftPricing={{ title: "Small", price:5.99 }} rightPricing={{ title: "Regular", price:7.49 }}/>
+        <Flowerext flowerText="Classic" leftPricing={{ title: "Small", price:5.99 }} rightPricing={{ title: "Regular", price:7.99 }}/>
         {/* <MenuCarousel1 drinks={fruitTeas}/> */}
         <FruitShowcase fruits={fruits}/>
         {/* <Banner 
             leftSection={{ text: "Small", price: "5.99" }}
             rightSection={{ text: "Regular", price: "6.99" }}
             /> */}
-        <Flowerext flowerText="Special" leftPricing={{ title: "Small", price:5.99 }} rightPricing={{ title: "Regular", price:7.49 }}/>
+        <Flowerext flowerText="Special" leftPricing={{ title: "Small", price:5.99 }} rightPricing={{ title: "Regular", price:7.99 }}/>
         {/* <MenuCarousel1 drinks={Tropicals}/> */}
         <FruitShowcase fruits={fruits1}/>
         <SmallBanner text={text2}/>   
