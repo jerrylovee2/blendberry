@@ -7,28 +7,45 @@ import Image from "next/image";
 const testimonials = [
   {
     id: 1,
-    name: "Sarah M.",
+    name: "Michael Dahl",
     image: "/demo.png",
     rating: 5,
-    text: "This place is amazing—fresh, creative, and well-executed. The staff is friendly and welcoming. It truly sets the standard for creativity.",
+    text: "Clean store, friendly staff.. but for the love of God, change the receipt paper at the pumps. I come here 3 times a week for the last 5 months and I have to walk inside to get my receipt every single time.",
     bgColor: "bg-blue-50",
   },
   {
     id: 2,
-    name: "Priya S.",
+    name: "Amanda",
     image: "/priyas.png",
     rating: 5,
-    text: "Absolutely love this place! The drinks are so refreshing and unique, and the waffles are to die for. It's my go-to spot for a quick pick-me-up or a cozy hangout!",
+    text: "Awesome great little stop on the way. The store is allways very clean and I enjoy the option of drinks like milk teas or smoothies over just bottled and canned options. Staff has allways been super friendly everytime i've stoped in as well.",
     bgColor: "bg-pink-100",
   },
   {
     id: 3,
-    name: "Amit R.",
+    name: "Jack Daniel",
     image: "/amit.png",
     rating: 5,
-    text: "Every sip feels like a little burst of happiness! The bubble teas are the best I've ever had, and the atmosphere is so welcoming. Highly recommend it to anyone looking for something special!",
+    text: "Super friendly owners and staff and delicious smoothies, milkshakes and bubble tea seriously worth the visit !!",
     bgColor: "bg-rose-50",
   },
+  {
+    id: 4,
+    name: "Athir Mehmood",
+    image: "/amit.png",
+    rating: 5,
+    text: "Best service.  Very courteous people.  They have best smoothy.  Must try.",
+    bgColor: "bg-rose-50",
+  },
+  {
+    id: 5,
+    name: "Harshit Nigam",
+    image: "",
+    rating: 5,
+    text: "Very corporative staff and have delicious beverages & real like taste smoothies.",
+    bgColor: "bg-rose-50",
+  },
+
 ];
 
 export default function TestimonialCards() {

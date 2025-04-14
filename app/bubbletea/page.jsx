@@ -8,7 +8,7 @@ const bubbleTea=()=>{
     return(<>
     
     <Navigation/>
-    <img src="/bubbletea.png" alt="Bubble Tea" style={{ width: '100%', height: '100vh' }} />
+    <img src="/Banner1.png" alt="Bubble Tea" style={{ width: '100%', minHeight:'50vh' }} />
 
     <BubbleTeaComponent/>
        
