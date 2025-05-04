@@ -35,9 +35,11 @@ export default function FrontPage() {
             <p className="text-sm text-center mb-4">
               A delightful range of tea-based drinks, blended with unique flavors and chewy toppings for every mood.
             </p>
-            <button className="bg-[#F08080] h-11 sm:h-14 hover:bg-[#E57373] text-white rounded-full px-4 sm:px-4">
-              Find yourself a perfect Bubble Tea
-            </button>
+            <a href="/bubbletea">
+              <Button className="bg-[#F08080] h-11 sm:h-14 hover:bg-[#E57373] text-white rounded-full px-4 sm:px-4">
+                Find yourself a perfect Bubble Tea
+              </Button>
+            </a>
           </div>
           <div className="w-1/2">
             <img src="/bubbleteafirst.png" alt="Bubble Tea Image" />
@@ -57,9 +59,11 @@ export default function FrontPage() {
             <p className="text-sm text-center mb-4">
               Rich, creamy milkshakes available in classic and inventive flavors to treat your taste buds.
             </p>
+            <a href="/milkshakes">
             <button className="bg-[#9370DB] h-11 sm:h-14 hover:bg-[#8A2BE2] text-white rounded-full px-4 sm:px-4">
               Find yourself a perfect Milkshake
             </button>
+            </a>
           </div>
 
           <div className="w-1/2">
@@ -79,9 +83,11 @@ export default function FrontPage() {
             <p className="text-sm text-center mb-4">
             Wholesome fruit blends, crafted in a variety of refreshing flavors to energize your day.
             </p>
+            <a href="/smoothies">
             <button className="bg-[#DEB887] hover:bg-[#D2B48C] h-11 sm:h-14  text-white rounded-full px-4 sm:px-4">
               Find yourself a Perfect Smoothie
             </button>
+            </a>
           </div>
           <div className="w-1/2">
             <img src="/bubbleteafirst.png" alt="Bubble Tea Image" />
@@ -101,9 +107,11 @@ export default function FrontPage() {
             <p className="text-sm text-center mb-4">
               Crisp, fluffy waffles served with an array of toppings — from fruity to indulgent.
             </p>
+            <a href="/waffles">
             <button className="bg-[#ACD6E0] h-11 sm:h-14 hover:bg-[#8cb2bc] text-white rounded-full px-4 sm:px-4">
               Find yourself a perfect Waffle
             </button>
+            </a>
           </div>
 
           <div className="w-1/2">
@@ -122,9 +130,11 @@ export default function FrontPage() {
             <p className="text-sm text-center mb-4">
             A curated selection of aromatic coffees and soothing teas — from bold brews to calming infusions, crafted for every moment.
             </p>
+            <a href="/chaihouse">
             <button className="bg-[#c38d8d] hover:bg-[#dea0a0] h-11 sm:h-14  text-white rounded-full px-4 sm:px-4">
               Find yourself a Perfect Tea and Coffee
             </button>
+            </a>
           </div>
           <div className="w-1/2">
             <img src="/teacoffeee.png" alt="Bubble Tea Image" />

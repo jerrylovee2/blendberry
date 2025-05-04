@@ -56,11 +56,15 @@ export default function Connect() {
             </div>
 
             {/* Get Directions Button */}
+            <div>
+            <a href="https://maps.app.goo.gl/7wcZzG8fyjryhyRb7">
             <Button 
               className="bg-[#E88B8B] hover:bg-[#e67272] text-white text-lg rounded-full px-8 py-6"
             >
               Get Directions
             </Button>
+            </a>
+            </div>
           </div>
 
           {/* Right Column - Social & Hours */}
