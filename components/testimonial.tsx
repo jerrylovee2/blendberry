@@ -74,7 +74,7 @@ export default function TestimonialCards() {
   return (
     <div className="min-h-screen w-[90%] m-auto flex items-center justify-center bg-purple-100 p-4 relative rounded-full">
       <Image
-        src="/section4.png"
+        src="/section44.png"
         alt="Background Image"
         layout="fill"
         objectFit="cover"
